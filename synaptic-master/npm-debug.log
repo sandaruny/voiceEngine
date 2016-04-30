@@ -1,0 +1,836 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/sandaruwan/.nvm/v4.4.0/bin/node',
+1 verbose cli   '/home/sandaruwan/.nvm/v4.4.0/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.8.0
+3 info using node@v4.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData browserify
+20 silly mapToRegistry name browserify
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/browserify
+24 silly fetchNamedPackageData gulp
+25 silly mapToRegistry name gulp
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/gulp
+29 silly fetchNamedPackageData gulp-insert
+30 silly mapToRegistry name gulp-insert
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/gulp-insert
+34 silly fetchNamedPackageData gulp-mocha
+35 silly mapToRegistry name gulp-mocha
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/gulp-mocha
+39 silly fetchNamedPackageData gulp-sourcemaps
+40 silly mapToRegistry name gulp-sourcemaps
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+44 silly fetchNamedPackageData gulp-uglify
+45 silly mapToRegistry name gulp-uglify
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+49 silly fetchNamedPackageData gulp-util
+50 silly mapToRegistry name gulp-util
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+54 silly fetchNamedPackageData vinyl-buffer
+55 silly mapToRegistry name vinyl-buffer
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/vinyl-buffer
+59 silly fetchNamedPackageData vinyl-source-stream
+60 silly mapToRegistry name vinyl-source-stream
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/vinyl-source-stream
+64 silly fetchNamedPackageData mocha
+65 silly mapToRegistry name mocha
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/mocha
+69 verbose request uri https://registry.npmjs.org/gulp
+70 verbose request no auth needed
+71 info attempt registry request try #1 at 11:27:35 AM
+72 verbose request id 6e8de94c1fc18700
+73 http request GET https://registry.npmjs.org/gulp
+74 verbose request uri https://registry.npmjs.org/gulp-insert
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 11:27:35 AM
+77 http request GET https://registry.npmjs.org/gulp-insert
+78 verbose request uri https://registry.npmjs.org/gulp-mocha
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 11:27:35 AM
+81 http request GET https://registry.npmjs.org/gulp-mocha
+82 verbose request uri https://registry.npmjs.org/gulp-sourcemaps
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 11:27:35 AM
+85 http request GET https://registry.npmjs.org/gulp-sourcemaps
+86 verbose request uri https://registry.npmjs.org/gulp-uglify
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 11:27:35 AM
+89 http request GET https://registry.npmjs.org/gulp-uglify
+90 verbose request uri https://registry.npmjs.org/gulp-util
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 11:27:35 AM
+93 http request GET https://registry.npmjs.org/gulp-util
+94 verbose request uri https://registry.npmjs.org/vinyl-buffer
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 11:27:35 AM
+97 http request GET https://registry.npmjs.org/vinyl-buffer
+98 verbose request uri https://registry.npmjs.org/vinyl-source-stream
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 11:27:35 AM
+101 http request GET https://registry.npmjs.org/vinyl-source-stream
+102 verbose request uri https://registry.npmjs.org/mocha
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 11:27:35 AM
+105 http request GET https://registry.npmjs.org/mocha
+106 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+107 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+108 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+109 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+110 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+111 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+112 verbose request uri https://registry.npmjs.org/browserify
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 11:27:36 AM
+115 verbose etag "H9K6ICDC1DMXYI0AL2B5J44V"
+116 http request GET https://registry.npmjs.org/browserify
+117 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+118 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+119 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+120 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+121 info attempt registry request try #2 at 11:27:45 AM
+122 http request GET https://registry.npmjs.org/gulp
+123 info attempt registry request try #2 at 11:27:45 AM
+124 http request GET https://registry.npmjs.org/gulp-insert
+125 info attempt registry request try #2 at 11:27:45 AM
+126 http request GET https://registry.npmjs.org/gulp-mocha
+127 info attempt registry request try #2 at 11:27:45 AM
+128 http request GET https://registry.npmjs.org/gulp-sourcemaps
+129 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+130 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+131 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+132 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+133 info attempt registry request try #2 at 11:27:46 AM
+134 http request GET https://registry.npmjs.org/gulp-uglify
+135 info attempt registry request try #2 at 11:27:46 AM
+136 http request GET https://registry.npmjs.org/gulp-util
+137 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+138 info attempt registry request try #2 at 11:27:46 AM
+139 http request GET https://registry.npmjs.org/vinyl-buffer
+140 info attempt registry request try #2 at 11:27:46 AM
+141 http request GET https://registry.npmjs.org/vinyl-source-stream
+142 info attempt registry request try #2 at 11:27:46 AM
+143 http request GET https://registry.npmjs.org/mocha
+144 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+145 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+146 info attempt registry request try #2 at 11:27:46 AM
+147 verbose etag "H9K6ICDC1DMXYI0AL2B5J44V"
+148 http request GET https://registry.npmjs.org/browserify
+149 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+150 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+151 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+152 info attempt registry request try #3 at 11:28:45 AM
+153 http request GET https://registry.npmjs.org/gulp
+154 info attempt registry request try #3 at 11:28:45 AM
+155 http request GET https://registry.npmjs.org/gulp-insert
+156 info attempt registry request try #3 at 11:28:45 AM
+157 http request GET https://registry.npmjs.org/gulp-mocha
+158 info attempt registry request try #3 at 11:28:46 AM
+159 http request GET https://registry.npmjs.org/gulp-sourcemaps
+160 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+160 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+160 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+160 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+160 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+160 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+160 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+160 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+160 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+160 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+160 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+160 silly fetchPackageMetaData  error for gulp@^3.8.11 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+161 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+161 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+161 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+161 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+161 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+161 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+161 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+161 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+161 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+161 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+161 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+161 silly fetchPackageMetaData  error for gulp-mocha@^2.0.1 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+162 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+162 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+162 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+162 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+162 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+162 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+162 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+162 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+162 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+162 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+162 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+162 silly fetchPackageMetaData  error for gulp-insert@^0.4.0 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+163 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+163 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+163 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+163 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+163 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+163 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+163 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+163 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+163 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+163 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+163 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+163 silly fetchPackageMetaData  error for gulp-sourcemaps@^1.5.2 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+164 info attempt registry request try #3 at 11:28:46 AM
+165 http request GET https://registry.npmjs.org/gulp-uglify
+166 info attempt registry request try #3 at 11:28:46 AM
+167 http request GET https://registry.npmjs.org/gulp-util
+168 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+168 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+168 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+168 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+168 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+168 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+168 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+168 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+168 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+168 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+168 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+168 silly fetchPackageMetaData  error for gulp-uglify@^1.2.0 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+169 info attempt registry request try #3 at 11:28:46 AM
+170 http request GET https://registry.npmjs.org/vinyl-buffer
+171 info attempt registry request try #3 at 11:28:46 AM
+172 http request GET https://registry.npmjs.org/vinyl-source-stream
+173 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+173 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+173 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+173 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+173 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+173 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+173 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+173 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+173 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+173 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+173 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+173 silly fetchPackageMetaData  error for vinyl-buffer@^1.0.0 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+174 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+174 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+174 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+174 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+174 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+174 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+174 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+174 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+174 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+174 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+174 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+174 silly fetchPackageMetaData  error for gulp-util@^3.0.4 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+175 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+175 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+175 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+175 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+175 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+175 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+175 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+175 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+175 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+175 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+175 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+175 silly fetchPackageMetaData  error for vinyl-source-stream@^1.1.0 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+176 info attempt registry request try #3 at 11:28:46 AM
+177 http request GET https://registry.npmjs.org/mocha
+178 info attempt registry request try #3 at 11:28:46 AM
+179 verbose etag "H9K6ICDC1DMXYI0AL2B5J44V"
+180 http request GET https://registry.npmjs.org/browserify
+181 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+181 silly fetchPackageMetaData     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+181 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+181 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+181 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+181 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+181 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+181 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+181 silly fetchPackageMetaData     at connectErrorNT (net.js:992:8)
+181 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:442:9)
+181 silly fetchPackageMetaData     at process._tickCallback (node.js:356:17)
+181 silly fetchPackageMetaData  error for mocha@^2.2.4 { [Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128] code: 'ECONNRESET' }
+182 silly get cb [ 304, undefined ]
+183 verbose etag https://registry.npmjs.org/browserify from cache
+184 verbose get saving browserify to /home/sandaruwan/.npm/registry.npmjs.org/browserify/.cache.json
+185 verbose correctMkdir /home/sandaruwan/.npm correctMkdir not in flight; initializing
+186 silly resolveWithNewModule browserify@10.2.6 checking installable status
+187 silly cache add args [ 'browserify@^10.1.3', null ]
+188 verbose cache add spec browserify@^10.1.3
+189 silly cache add parsed spec Result {
+189 silly cache add   raw: 'browserify@^10.1.3',
+189 silly cache add   scope: null,
+189 silly cache add   name: 'browserify',
+189 silly cache add   rawSpec: '^10.1.3',
+189 silly cache add   spec: '>=10.1.3 <11.0.0',
+189 silly cache add   type: 'range' }
+190 silly addNamed browserify@>=10.1.3 <11.0.0
+191 verbose addNamed ">=10.1.3 <11.0.0" is a valid semver range for browserify
+192 silly addNameRange { name: 'browserify', range: '>=10.1.3 <11.0.0', hasData: false }
+193 silly mapToRegistry name browserify
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry uri https://registry.npmjs.org/browserify
+197 verbose addNameRange registry:https://registry.npmjs.org/browserify not in flight; fetching
+198 verbose get https://registry.npmjs.org/browserify not expired, no request
+199 silly addNameRange number 2 { name: 'browserify', range: '>=10.1.3 <11.0.0', hasData: true }
+200 silly addNameRange versions [ 'browserify',
+200 silly addNameRange   [ '0.0.1',
+200 silly addNameRange     '0.0.2',
+200 silly addNameRange     '0.0.3',
+200 silly addNameRange     '0.0.4',
+200 silly addNameRange     '0.0.5',
+200 silly addNameRange     '0.1.0',
+200 silly addNameRange     '0.1.1',
+200 silly addNameRange     '0.1.2',
+200 silly addNameRange     '0.1.3',
+200 silly addNameRange     '0.1.4',
+200 silly addNameRange     '0.1.5',
+200 silly addNameRange     '0.2.0',
+200 silly addNameRange     '0.2.1',
+200 silly addNameRange     '0.2.2',
+200 silly addNameRange     '0.2.3',
+200 silly addNameRange     '0.2.4',
+200 silly addNameRange     '0.2.5',
+200 silly addNameRange     '0.2.6',
+200 silly addNameRange     '0.2.7',
+200 silly addNameRange     '0.2.8',
+200 silly addNameRange     '0.2.9',
+200 silly addNameRange     '0.2.10',
+200 silly addNameRange     '0.2.11',
+200 silly addNameRange     '0.3.0',
+200 silly addNameRange     '0.3.1',
+200 silly addNameRange     '0.3.2',
+200 silly addNameRange     '0.3.3',
+200 silly addNameRange     '0.3.4',
+200 silly addNameRange     '0.3.5',
+200 silly addNameRange     '0.3.6',
+200 silly addNameRange     '0.3.7',
+200 silly addNameRange     '0.4.0',
+200 silly addNameRange     '0.4.1',
+200 silly addNameRange     '0.4.2',
+200 silly addNameRange     '0.4.3',
+200 silly addNameRange     '0.4.4',
+200 silly addNameRange     '0.4.5',
+200 silly addNameRange     '0.4.6',
+200 silly addNameRange     '0.4.7',
+200 silly addNameRange     '0.4.8',
+200 silly addNameRange     '0.4.9',
+200 silly addNameRange     '0.4.10',
+200 silly addNameRange     '0.4.11',
+200 silly addNameRange     '0.4.12',
+200 silly addNameRange     '0.4.13',
+200 silly addNameRange     '0.4.14',
+200 silly addNameRange     '0.4.15',
+200 silly addNameRange     '0.5.0',
+200 silly addNameRange     '0.5.1',
+200 silly addNameRange     '0.5.2',
+200 silly addNameRange     '1.0.0',
+200 silly addNameRange     '1.1.0',
+200 silly addNameRange     '1.1.1',
+200 silly addNameRange     '1.1.2',
+200 silly addNameRange     '1.1.3',
+200 silly addNameRange     '1.1.4',
+200 silly addNameRange     '1.2.0',
+200 silly addNameRange     '1.2.1',
+200 silly addNameRange     '1.2.2',
+200 silly addNameRange     '1.2.3',
+200 silly addNameRange     '1.2.4',
+200 silly addNameRange     '1.2.5',
+200 silly addNameRange     '1.2.6',
+200 silly addNameRange     '1.2.7',
+200 silly addNameRange     '1.2.8',
+200 silly addNameRange     '1.2.9',
+200 silly addNameRange     '1.3.0',
+200 silly addNameRange     '1.4.0',
+200 silly addNameRange     '1.4.1',
+200 silly addNameRange     '1.4.2',
+200 silly addNameRange     '1.4.3',
+200 silly addNameRange     '1.4.4',
+200 silly addNameRange     '1.4.5',
+200 silly addNameRange     '1.4.6',
+200 silly addNameRange     '1.4.7',
+200 silly addNameRange     '1.4.8',
+200 silly addNameRange     '1.5.0',
+200 silly addNameRange     '1.6.0',
+200 silly addNameRange     '1.6.1',
+200 silly addNameRange     '1.7.0',
+200 silly addNameRange     '1.7.1',
+200 silly addNameRange     '1.7.2',
+200 silly addNameRange     '1.7.3',
+200 silly addNameRange     '1.7.4',
+200 silly addNameRange     '1.7.5',
+200 silly addNameRange     '1.7.6',
+200 silly addNameRange     '1.7.7',
+200 silly addNameRange     '1.8.0',
+200 silly addNameRange     '1.8.1',
+200 silly addNameRange     '1.8.2',
+200 silly addNameRange     '1.8.3',
+200 silly addNameRange     '1.9.0',
+200 silly addNameRange     '1.9.1',
+200 silly addNameRange     '1.9.2',
+200 silly addNameRange     '1.9.3',
+200 silly addNameRange     '1.9.4',
+200 silly addNameRange     '1.10.0',
+200 silly addNameRange     '1.10.1',
+200 silly addNameRange     '1.10.2',
+200 silly addNameRange     '1.10.3',
+200 silly addNameRange     '1.10.4',
+200 silly addNameRange     '1.10.5',
+200 silly addNameRange     '1.10.6',
+200 silly addNameRange     '1.10.7',
+200 silly addNameRange     '1.10.8',
+200 silly addNameRange     '1.10.9',
+200 silly addNameRange     '1.10.11',
+200 silly addNameRange     '1.10.12',
+200 silly addNameRange     '1.10.13',
+200 silly addNameRange     '1.10.14',
+200 silly addNameRange     '1.10.15',
+200 silly addNameRange     '1.10.16',
+200 silly addNameRange     '1.10.17',
+200 silly addNameRange     '1.11.0',
+200 silly addNameRange     '1.11.1',
+200 silly addNameRange     '1.12.0',
+200 silly addNameRange     '1.12.1',
+200 silly addNameRange     '1.12.2',
+200 silly addNameRange     '1.12.3',
+200 silly addNameRange     '1.13.0',
+200 silly addNameRange     '1.13.1',
+200 silly addNameRange     '1.13.2',
+200 silly addNameRange     '1.13.3',
+200 silly addNameRange     '1.13.4',
+200 silly addNameRange     '1.13.5',
+200 silly addNameRange     '1.13.6',
+200 silly addNameRange     '1.13.8',
+200 silly addNameRange     '1.13.9',
+200 silly addNameRange     '1.13.10',
+200 silly addNameRange     '1.14.0',
+200 silly addNameRange     '1.14.1',
+200 silly addNameRange     '1.14.2',
+200 silly addNameRange     '1.14.3',
+200 silly addNameRange     '1.14.4',
+200 silly addNameRange     '1.14.5',
+200 silly addNameRange     '1.15.0',
+200 silly addNameRange     '1.15.1',
+200 silly addNameRange     '1.15.2',
+200 silly addNameRange     '1.15.3',
+200 silly addNameRange     '1.15.4',
+200 silly addNameRange     '1.15.5',
+200 silly addNameRange     '1.15.6',
+200 silly addNameRange     '1.16.0',
+200 silly addNameRange     '1.16.1',
+200 silly addNameRange     '1.16.2',
+200 silly addNameRange     '1.16.3',
+200 silly addNameRange     '1.16.4',
+200 silly addNameRange     '1.16.5',
+200 silly addNameRange     '1.16.6',
+200 silly addNameRange     '1.16.7',
+200 silly addNameRange     '1.16.8',
+200 silly addNameRange     '1.17.0',
+200 silly addNameRange     '1.17.1',
+200 silly addNameRange     '1.17.2',
+200 silly addNameRange     '1.17.3',
+200 silly addNameRange     '1.18.0',
+200 silly addNameRange     '2.0.0',
+200 silly addNameRange     '2.0.1',
+200 silly addNameRange     '2.1.0',
+200 silly addNameRange     '2.2.0',
+200 silly addNameRange     '2.2.1',
+200 silly addNameRange     '2.2.2',
+200 silly addNameRange     '2.2.3',
+200 silly addNameRange     '2.2.4',
+200 silly addNameRange     '2.2.5',
+200 silly addNameRange     '2.2.6',
+200 silly addNameRange     '2.3.0',
+200 silly addNameRange     '2.3.1',
+200 silly addNameRange     '2.4.0',
+200 silly addNameRange     '2.4.1',
+200 silly addNameRange     '2.4.2',
+200 silly addNameRange     '2.4.3',
+200 silly addNameRange     '2.5.0',
+200 silly addNameRange     '2.5.1',
+200 silly addNameRange     '2.6.0',
+200 silly addNameRange     '2.6.1',
+200 silly addNameRange     '2.7.0',
+200 silly addNameRange     '2.7.1',
+200 silly addNameRange     '2.7.2',
+200 silly addNameRange     '2.7.3',
+200 silly addNameRange     '2.7.4',
+200 silly addNameRange     '2.8.0',
+200 silly addNameRange     '2.8.1',
+200 silly addNameRange     '2.9.0',
+200 silly addNameRange     '2.10.0',
+200 silly addNameRange     '2.10.1',
+200 silly addNameRange     '2.10.2',
+200 silly addNameRange     '2.11.0',
+200 silly addNameRange     '2.12.0',
+200 silly addNameRange     '2.12.1',
+200 silly addNameRange     '2.12.2',
+200 silly addNameRange     '2.12.3',
+200 silly addNameRange     '2.12.4',
+200 silly addNameRange     '2.12.5',
+200 silly addNameRange     '2.13.0',
+200 silly addNameRange     '2.13.1',
+200 silly addNameRange     '2.13.2',
+200 silly addNameRange     '2.13.3',
+200 silly addNameRange     '2.14.0',
+200 silly addNameRange     '2.14.1',
+200 silly addNameRange     '2.14.2',
+200 silly addNameRange     '2.15.0',
+200 silly addNameRange     '2.16.0',
+200 silly addNameRange     '2.17.0',
+200 silly addNameRange     '2.17.1',
+200 silly addNameRange     '2.17.2',
+200 silly addNameRange     '2.17.3',
+200 silly addNameRange     '2.17.4',
+200 silly addNameRange     '2.18.0',
+200 silly addNameRange     '2.18.1',
+200 silly addNameRange     '2.19.0',
+200 silly addNameRange     '2.20.0',
+200 silly addNameRange     '2.20.1',
+200 silly addNameRange     '2.20.2',
+200 silly addNameRange     '2.21.0',
+200 silly addNameRange     '2.22.0',
+200 silly addNameRange     '2.23.0',
+200 silly addNameRange     '2.23.1',
+200 silly addNameRange     '2.24.0',
+200 silly addNameRange     '2.24.1',
+200 silly addNameRange     '2.24.2',
+200 silly addNameRange     '2.24.3',
+200 silly addNameRange     '2.25.0',
+200 silly addNameRange     '2.25.1',
+200 silly addNameRange     '2.26.0',
+200 silly addNameRange     '2.27.0',
+200 silly addNameRange     '2.27.1',
+200 silly addNameRange     '2.28.0',
+200 silly addNameRange     '2.29.0',
+200 silly addNameRange     '2.29.1',
+200 silly addNameRange     '2.30.0',
+200 silly addNameRange     '2.31.0',
+200 silly addNameRange     '2.32.0',
+200 silly addNameRange     '2.32.1',
+200 silly addNameRange     '2.32.2',
+200 silly addNameRange     '2.32.3',
+200 silly addNameRange     '2.32.4',
+200 silly addNameRange     '2.33.0',
+200 silly addNameRange     '2.33.1',
+200 silly addNameRange     '2.34.0',
+200 silly addNameRange     '2.34.1',
+200 silly addNameRange     '2.34.2',
+200 silly addNameRange     '2.34.3',
+200 silly addNameRange     '2.35.0',
+200 silly addNameRange     '2.35.1',
+200 silly addNameRange     '2.35.2',
+200 silly addNameRange     '2.35.3',
+200 silly addNameRange     '2.35.4',
+200 silly addNameRange     '2.36.0',
+200 silly addNameRange     '2.36.1',
+200 silly addNameRange     '3.0.0',
+200 silly addNameRange     '3.1.0',
+200 silly addNameRange     '3.1.1',
+200 silly addNameRange     '3.1.2',
+200 silly addNameRange     '3.1.3',
+200 silly addNameRange     '3.2.0',
+200 silly addNameRange     '3.2.1',
+200 silly addNameRange     '3.2.2',
+200 silly addNameRange     '3.3.0',
+200 silly addNameRange     '3.4.0',
+200 silly addNameRange     '3.4.1',
+200 silly addNameRange     '3.5.0',
+200 silly addNameRange     '3.6.0',
+200 silly addNameRange     '3.7.0',
+200 silly addNameRange     '3.8.0',
+200 silly addNameRange     '3.8.1',
+200 silly addNameRange     '3.9.0',
+200 silly addNameRange     '3.9.1',
+200 silly addNameRange     '3.10.0',
+200 silly addNameRange     '3.11.0',
+200 silly addNameRange     '3.11.1',
+200 silly addNameRange     '3.12.0',
+200 silly addNameRange     '3.13.0',
+200 silly addNameRange     '3.14.0',
+200 silly addNameRange     '3.14.1',
+200 silly addNameRange     '3.16.0',
+200 silly addNameRange     '3.16.1',
+200 silly addNameRange     '3.17.0',
+200 silly addNameRange     '3.18.0',
+200 silly addNameRange     '3.19.0',
+200 silly addNameRange     '3.19.1',
+200 silly addNameRange     '3.20.0',
+200 silly addNameRange     '3.20.1',
+200 silly addNameRange     '3.20.2',
+200 silly addNameRange     '3.21.0',
+200 silly addNameRange     '3.21.1',
+200 silly addNameRange     '3.22.0',
+200 silly addNameRange     '3.22.1',
+200 silly addNameRange     '3.23.0',
+200 silly addNameRange     '3.23.1',
+200 silly addNameRange     '3.24.0',
+200 silly addNameRange     '3.24.1',
+200 silly addNameRange     '3.24.2',
+200 silly addNameRange     '3.24.3',
+200 silly addNameRange     '3.24.4',
+200 silly addNameRange     '3.24.5',
+200 silly addNameRange     '3.24.6',
+200 silly addNameRange     '3.24.7',
+200 silly addNameRange     '3.24.8',
+200 silly addNameRange     '3.24.9',
+200 silly addNameRange     '3.24.10',
+200 silly addNameRange     '3.24.11',
+200 silly addNameRange     '3.24.13',
+200 silly addNameRange     '3.25.0',
+200 silly addNameRange     '3.25.1',
+200 silly addNameRange     '3.25.2',
+200 silly addNameRange     '3.26.0',
+200 silly addNameRange     '3.27.0',
+200 silly addNameRange     '3.27.1',
+200 silly addNameRange     '3.28.0',
+200 silly addNameRange     '3.28.1',
+200 silly addNameRange     '3.28.2',
+200 silly addNameRange     '3.29.0',
+200 silly addNameRange     '3.29.1',
+200 silly addNameRange     '3.30.0',
+200 silly addNameRange     '3.30.1',
+200 silly addNameRange     '3.30.2',
+200 silly addNameRange     '3.30.3',
+200 silly addNameRange     '3.30.4',
+200 silly addNameRange     '3.31.0',
+200 silly addNameRange     '3.31.1',
+200 silly addNameRange     '3.31.2',
+200 silly addNameRange     '3.32.0',
+200 silly addNameRange     '3.32.1',
+200 silly addNameRange     '3.33.0',
+200 silly addNameRange     '3.33.1',
+200 silly addNameRange     '3.34.0',
+200 silly addNameRange     '3.35.0',
+200 silly addNameRange     '3.36.0',
+200 silly addNameRange     '3.36.1',
+200 silly addNameRange     '3.37.0',
+200 silly addNameRange     '3.37.1',
+200 silly addNameRange     '3.37.2',
+200 silly addNameRange     '3.38.0',
+200 silly addNameRange     '3.38.1',
+200 silly addNameRange     '3.39.0',
+200 silly addNameRange     '3.40.0',
+200 silly addNameRange     '3.40.1',
+200 silly addNameRange     '3.40.2',
+200 silly addNameRange     '3.40.3',
+200 silly addNameRange     '3.40.4',
+200 silly addNameRange     '3.41.0',
+200 silly addNameRange     '3.42.0',
+200 silly addNameRange     '3.43.0',
+200 silly addNameRange     '3.44.0',
+200 silly addNameRange     '3.44.1',
+200 silly addNameRange     '3.44.2',
+200 silly addNameRange     '3.45.0',
+200 silly addNameRange     '3.46.0',
+200 silly addNameRange     '3.46.1',
+200 silly addNameRange     '4.0.0',
+200 silly addNameRange     '4.1.0',
+200 silly addNameRange     '4.1.1',
+200 silly addNameRange     '4.1.2',
+200 silly addNameRange     '4.1.3',
+200 silly addNameRange     '4.1.4',
+200 silly addNameRange     '4.1.5',
+200 silly addNameRange     '4.1.6',
+200 silly addNameRange     '4.1.7',
+200 silly addNameRange     '4.1.8',
+200 silly addNameRange     '4.1.9',
+200 silly addNameRange     '4.1.10',
+200 silly addNameRange     '4.1.11',
+200 silly addNameRange     '4.2.0',
+200 silly addNameRange     '4.2.1',
+200 silly addNameRange     '4.2.2',
+200 silly addNameRange     '4.2.3',
+200 silly addNameRange     '5.0.0',
+200 silly addNameRange     '5.0.1',
+200 silly addNameRange     '5.0.2',
+200 silly addNameRange     '5.0.3',
+200 silly addNameRange     '5.0.4',
+200 silly addNameRange     '5.0.5',
+200 silly addNameRange     '5.0.6',
+200 silly addNameRange     '5.0.7',
+200 silly addNameRange     '5.0.8',
+200 silly addNameRange     '5.1.0',
+200 silly addNameRange     '5.1.1',
+200 silly addNameRange     '5.2.0',
+200 silly addNameRange     '5.2.1',
+200 silly addNameRange     '5.3.0',
+200 silly addNameRange     '5.4.0',
+200 silly addNameRange     '5.4.1',
+200 silly addNameRange     '5.4.2',
+200 silly addNameRange     '5.5.0',
+200 silly addNameRange     '5.6.0',
+200 silly addNameRange     '5.6.1',
+200 silly addNameRange     '5.7.0',
+200 silly addNameRange     '5.8.0',
+200 silly addNameRange     '5.9.0',
+200 silly addNameRange     '5.9.1',
+200 silly addNameRange     '5.9.2',
+200 silly addNameRange     '5.9.3',
+200 silly addNameRange     '5.10.0',
+200 silly addNameRange     '5.10.1',
+200 silly addNameRange     '5.11.0',
+200 silly addNameRange     '5.11.1',
+200 silly addNameRange     '5.11.2',
+200 silly addNameRange     '5.12.0',
+200 silly addNameRange     '5.12.1',
+200 silly addNameRange     '5.12.2',
+200 silly addNameRange     '5.13.0',
+200 silly addNameRange     '5.13.1',
+200 silly addNameRange     '6.0.0',
+200 silly addNameRange     '6.0.1',
+200 silly addNameRange     '6.0.2',
+200 silly addNameRange     '6.0.3',
+200 silly addNameRange     '6.1.0',
+200 silly addNameRange     '6.1.1',
+200 silly addNameRange     '6.1.2',
+200 silly addNameRange     '6.2.0',
+200 silly addNameRange     '6.3.0',
+200 silly addNameRange     '6.3.1',
+200 silly addNameRange     '6.3.2',
+200 silly addNameRange     '6.3.3',
+200 silly addNameRange     '6.3.4',
+200 silly addNameRange     '7.0.0',
+200 silly addNameRange     '7.0.1',
+200 silly addNameRange     '7.0.2',
+200 silly addNameRange     '7.0.3',
+200 silly addNameRange     '7.1.0',
+200 silly addNameRange     '8.0.0',
+200 silly addNameRange     '8.0.1',
+200 silly addNameRange     '8.0.2',
+200 silly addNameRange     '8.0.3',
+200 silly addNameRange     '8.1.0',
+200 silly addNameRange     '8.1.1',
+200 silly addNameRange     '8.1.2',
+200 silly addNameRange     '8.1.3',
+200 silly addNameRange     '9.0.0',
+200 silly addNameRange     '9.0.1',
+200 silly addNameRange     '9.0.2',
+200 silly addNameRange     '9.0.3',
+200 silly addNameRange     '9.0.4',
+200 silly addNameRange     '9.0.5',
+200 silly addNameRange     '9.0.6',
+200 silly addNameRange     '9.0.7',
+200 silly addNameRange     '9.0.8',
+200 silly addNameRange     '10.0.0',
+200 silly addNameRange     '10.1.0',
+200 silly addNameRange     '10.1.1',
+200 silly addNameRange     '10.1.2',
+200 silly addNameRange     '10.1.3',
+200 silly addNameRange     '10.2.0',
+200 silly addNameRange     '10.2.1',
+200 silly addNameRange     '10.2.3',
+200 silly addNameRange     '10.2.4',
+200 silly addNameRange     '10.2.5',
+200 silly addNameRange     '10.2.6',
+200 silly addNameRange     '11.0.0',
+200 silly addNameRange     '11.0.1',
+200 silly addNameRange     '11.1.0',
+200 silly addNameRange     '11.2.0',
+200 silly addNameRange     '12.0.0',
+200 silly addNameRange     '12.0.1',
+200 silly addNameRange     '12.0.2',
+200 silly addNameRange     '13.0.0' ] ]
+201 silly addNamed browserify@10.2.6
+202 verbose addNamed "10.2.6" is a plain semver version for browserify
+203 silly mapToRegistry name browserify
+204 silly mapToRegistry using default registry
+205 silly mapToRegistry registry https://registry.npmjs.org/
+206 silly mapToRegistry uri https://registry.npmjs.org/browserify
+207 verbose addRemoteTarball https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz not in flight; adding
+208 verbose addRemoteTarball [ 'https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz',
+208 verbose addRemoteTarball   'dcbfef794f548f5f8498214814f697a5c50c0896' ]
+209 info retry fetch attempt 1 at 11:28:47 AM
+210 info attempt registry request try #1 at 11:28:47 AM
+211 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+212 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+213 info attempt registry request try #2 at 11:28:57 AM
+214 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+215 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+216 info attempt registry request try #3 at 11:29:57 AM
+217 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+218 error fetch failed https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+219 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+220 info retry fetch attempt 2 at 11:30:07 AM
+221 info attempt registry request try #1 at 11:30:07 AM
+222 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+223 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+224 info attempt registry request try #2 at 11:30:17 AM
+225 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+226 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+227 info attempt registry request try #3 at 11:31:17 AM
+228 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+229 error fetch failed https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+230 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+231 info retry fetch attempt 3 at 11:32:17 AM
+232 info attempt registry request try #1 at 11:32:17 AM
+233 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+234 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+235 info attempt registry request try #2 at 11:32:28 AM
+236 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+237 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+238 info attempt registry request try #3 at 11:33:29 AM
+239 http fetch GET https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+240 error fetch failed https://registry.npmjs.org/browserify/-/browserify-10.2.6.tgz
+241 silly rollbackFailedOptional Starting
+242 silly rollbackFailedOptional Finishing
+243 silly runTopLevelLifecycles Starting
+244 silly runTopLevelLifecycles Finishing
+245 silly install printInstalled
+246 verbose stack Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+246 verbose stack     at ClientRequest.onError (/home/sandaruwan/.nvm/v4.4.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+246 verbose stack     at ClientRequest.g (events.js:260:16)
+246 verbose stack     at emitOne (events.js:77:13)
+246 verbose stack     at ClientRequest.emit (events.js:169:7)
+246 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+246 verbose stack     at emitOne (events.js:77:13)
+246 verbose stack     at TLSSocket.emit (events.js:169:7)
+246 verbose stack     at connectErrorNT (net.js:992:8)
+246 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+246 verbose stack     at process._tickCallback (node.js:356:17)
+247 verbose cwd /usr/share/nginx/html/dictate/synaptic-master
+248 error Linux 3.13.0-83-generic
+249 error argv "/home/sandaruwan/.nvm/v4.4.0/bin/node" "/home/sandaruwan/.nvm/v4.4.0/bin/npm" "install"
+250 error node v4.4.0
+251 error npm  v3.8.0
+252 error code ECONNRESET
+253 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND cachex.pdn.ac.lk cachex.pdn.ac.lk:3128
+254 error network This is most likely not a problem with npm itself
+254 error network and is related to network connectivity.
+254 error network In most cases you are behind a proxy or have bad network settings.
+254 error network
+254 error network If you are behind a proxy, please make sure that the
+254 error network 'proxy' config is set properly.  See: 'npm help config'
+255 verbose exit [ 1, true ]
