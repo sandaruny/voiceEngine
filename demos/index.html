@@ -1,0 +1,104 @@
+<html>
+<head>
+
+    <script src="other/jquery-1.10.2.min.js"></script>
+    <script src="other/synaptic.js"></script>
+    <script src="other/mynet.js" type="application/javascript"></script>
+</head>
+<body>
+
+Hello
+<input type="file" onchange="" id="fileinput" />
+<div id="outpt"></div>
+
+<script>
+
+    window.onload = function(){
+        document.getElementById('fileinput').addEventListener('change', openFile, false);
+    };
+
+    var openFile = function(event) {
+        var input = event.target;
+        var audioContext = new AudioContext();
+
+        var reader = new FileReader();
+        reader.onload = function(){
+            var arrayBuffer = reader.result;
+            console.log("arrayBuffer:");
+            console.log(arrayBuffer);
+            audioContext.decodeAudioData(arrayBuffer, decodedDone);
+        };
+        reader.readAsArrayBuffer(input.files[0]);
+    };
+    function decodedDone(decoded) {
+        var typedArray = new Float32Array(decoded.length);
+        typedArray = decoded.getChannelData(0);0
+
+        for (var x = 0; x < decoded.length; x+=1){
+            typedArray[x] = Math.abs(typedArray[x]);
+        }
+
+        console.log("typedArray:");
+        console.log(typedArray);
+
+        var perceptron = new Architect.Perceptron(100,100,2);
+        var worker = null;
+        var index = 0;
+        var twitter_data = null;
+        var canvas = null;
+        var context = null;
+        var size = 125 * 125;
+        var iteration = 0;
+        var to = null;
+        var px = null;
+        var trainingStarted = false;
+
+//        var getData = function(imageObj){
+//            canvas = canvas || document.getElementById('canvas-demo4');
+//            context = context || canvas.getContext('2d');
+//            context.drawImage(imageObj, 0, 0);
+//            var imageData = context.getImageData(0, 0, 125, 125);
+//            return imageData.data;
+//        }
+
+//        var train = function(){
+//            var audio = new Audio("hello.wav");
+//            audio.play();
+//            trainingStarted = true;
+//            iteration = 0;
+//            to && clearTimeout(to);
+//            perceptron = new Architect.Perceptron(100,40,2);
+//        }
+
+        var iterate = function(){
+            for (var x = 0; x < decoded.length; x+=100)
+            {
+                var arr = typedArray.slice(x, x + 100);
+
+                console.log(l);
+                if(x + 100 > decoded.length){
+//                    console.log(l);
+                }else {
+                    var l =perceptron.activate(arr);
+                    perceptron.propagate(0.1, [0,1]);
+                }
+
+            }
+        }
+
+        var preview = function() {
+            for (var x = 0; x < decoded.length; x+=100){
+                var arr = typedArray.slice(x, x + 100)
+                var rgb = perceptron.activate(arr);
+                $('#outpt').append(rgb+'<br>');
+            }
+        }
+
+        iterate();
+        preview();
+
+    }
+</script>
+</body>
+</html>
+
